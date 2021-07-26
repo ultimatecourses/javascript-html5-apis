@@ -27,6 +27,10 @@ export default {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: ['file-loader'],
       },
+      {
+        test: /\.(mp3|mp4|webm)$/,
+        use: ['file-loader'],
+      },
     ],
   },
   plugins: [
