@@ -65,6 +65,7 @@ export default {
     open: false,
     contentBase: './dist',
     clientLogLevel: 'none',
+    historyApiFallback: true,
     inline: true,
     port: 4000,
   },
